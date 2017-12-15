@@ -1,0 +1,27 @@
+.el-input.is-disabled .el-input__inner{
+  background-color: inherit;
+  border-color: inherit;
+  color: #000;
+}
+.el-select .el-input.is-disabled .el-input__inner{
+  cursor: default;
+  text-align: center;
+  max-width: 180px;
+  border:0;
+  padding-right:12px;
+  background-color: transparent;
+  color:#000;
+}
+.el-select .el-input.is-disabled .el-input__inner:hover{
+  border-color: inherit;
+}
+.el-select .el-input .el-input__icon{
+  cursor: default;
+  display:none;
+}
+.el-button.is-disabled, .el-button.is-disabled:focus, .el-button.is-disabled:hover {
+  background-color: transparent;
+}
+.el-select .el-input__inner {
+  border-radius:4px;
+}

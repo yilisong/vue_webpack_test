@@ -1,0 +1,219 @@
+@import './index.css';
+/*commom used*/
+.item-name,
+.item-info {
+  @extend item;
+}
+/*setting layout*/
+.setting-area {
+  min-height: calc(100vh - 306px);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $backgroundColor;
+}
+.setting-box {
+  padding: 30px 25px;
+  margin: 0 auto;
+  width: 1150px;
+  min-height: calc(100vh - 368px);
+  background-color: #fff;
+}
+.setting-left {
+  float: left;
+}
+/*setting-left*/
+.setting-left {
+  width: 730px;
+  margin-right: 40px;
+}
+.titlebox {
+  padding-bottom: 20px;
+  border-bottom: 1px solid $borderColor;
+}
+.titlebox .headline {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: $titleColor;
+  font-family: 'Microsoft YaHei';
+}
+.titlebox .subline {
+  font-size: 14px;
+  color: #777;
+}
+
+.spec-list > .spec-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted $borderColor;
+}
+.spec-list > .spec-item:last-child {
+  border-bottom: 0;
+}
+.option-list {
+  border-bottom: 1px solid $borderColor;
+}
+
+.first-title, .second-title {
+  @extend item;
+  height: 30px;
+  line-height: 30px;
+}
+.first-title {
+  width: 100px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.second-title {
+  width: 90px;
+}
+.spec-list, .spec-setting {
+  display: inline-block;
+  vertical-align: middle;
+}
+.spec-setting {
+  width: 530px;
+}
+.spec-setting .domain-filter {
+  padding: 7px 8px;
+  margin-left: 12px;
+  width: 64px;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  border: 1px solid $borderColor;
+  background-color: #fff;
+  vertical-align: top;
+  cursor: pointer;
+}
+.domain-box {
+  margin-top: 12px;
+  width: 409px;
+  max-height: 170px;
+  border: 1px solid $borderColor;
+}
+.domain-box .hint {
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  background-color: #e9e9e9;
+}
+.domain-box .domain-item {
+  padding: 1px 14px;
+  line-height: 25px;
+}
+.domain-box .domain-item:first-child {
+  border-top: 1px solid $borderColor;
+}
+.domain-box .domain-item input {
+  vertical-align: middle;
+}
+.spec-setting > .meal-item {
+  display : inline-block;
+  margin-right: 14px;
+}
+.spec-setting > .meal-item label {
+  display : inline-block;
+  /*width: 98px;*/
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 34px;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid $borderColor;
+  cursor: pointer;
+}
+.spec-setting > .es-meal-item {
+  display: inline-block;
+}
+.spec-setting > .meal-item > .active {
+  background-color: #eaf4fc;
+  border-color: #2d90e6;
+}
+.spec-setting > .meal-item:last-child {
+  margin-right: 0;
+}
+.spec-setting > .config-item {
+  display: inline-block;
+  width: 49%;
+  font-size: 14px;
+  line-height: 20px;
+}
+.spec-setting > .es-domain-item {
+  border: 1px solid #cdcdcd;
+  padding: 0 10px;
+  width: auto;
+  line-height: 36px;
+  vertical-align: middle;
+}
+.spec-setting > .es-time-item {
+  padding: 0 10px;
+  width: auto;
+  border: 1px solid #cdcdcd;
+  line-height: 36px;
+  vertical-align: middle;
+  background-color: #e7e7e7;
+}
+.set-time {
+  display: inline-block;
+  width: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 1px solid $borderColor;
+  border-right: 0;
+}
+.set-time > label {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 100%;
+  line-height: 20px;
+  cursor: pointer;
+}
+.set-time:last-child,
+.set-time:nth-child(10) {
+  border-right: 1px solid $borderColor;
+}
+.spec-setting .time-active {
+  background-color: #eaf4fc;
+  border-color: #2d90e6;
+}
+.spec-setting .time-active + .set-time {
+  border-left-color: #2d90e6;
+}
+.spec-setting .time-active + .set-time:nth-child(11) {
+  border-left-color: $borderColor;
+}
+.spec-setting > .spec-item {
+  display: inline-block;
+  width: 49%;
+}
+.es-spec-item {
+  width: 180px;
+  padding: 10px;
+  background-color: #eaf4fc;
+  border: 1px solid $borderColor;
+}
+/*cloud-speed*/
+.spec-setting > .es-meal-item label {
+  display: inline-block;
+  width: 215px;
+  height: 40px;
+  vertical-align: middle;
+  padding: 15px;
+  border: 1px solid $borderColor;
+  cursor: pointer;
+}
+.spec-setting > .es-meal-item .active{
+  background-color: #eaf4fc;
+  border-color: #2d90e6;
+}
+.es-meal-item .title {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.es-meal-item .txt {
+  line-height: 15px;
+}

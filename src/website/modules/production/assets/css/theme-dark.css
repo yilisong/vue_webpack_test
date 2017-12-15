@@ -1,0 +1,42 @@
+@import './common.css';
+
+.bth-banner {
+  .purchase {
+    color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    background-color: rgba(45,144,230,.1);
+  }
+  .console {
+    color: #b9b9b9;
+    border-color: #848484;
+  }
+  /*temporarily*/
+  /*.purchase.lighten {
+    position: relative;
+    color: rgba(45,144,230,1);
+    background-color: rgba(45,144,230,.3);
+    border-color: rgba(45,144,230,1);
+    cursor: not-allowed !important;
+  }
+  .console.lighten {
+    position: relative;
+    color: rgba(191,203,217,1);
+    background-color: transparent;
+    border-color: rgba(132,132,132,1);
+    cursor: not-allowed !important;
+  }*/
+  .purchase.darken,
+  .console.darken {
+    position: relative;
+    color: #686868;
+    border-color: #686868;
+    background-color: #182029;
+    cursor: not-allowed !important;
+  }
+}
+
+.container{
+  .title {
+    color: var(--text-primary);
+  }
+}

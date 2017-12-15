@@ -1,0 +1,11 @@
+/*make block style center in browser*/
+@define-extend center {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*show items*/
+@define-extend item {
+  display: inline-block;
+  vertical-align: top;
+}

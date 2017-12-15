@@ -1,0 +1,33 @@
+.el-dialog__title {
+  border-left: 3px solid var(--primary-blue);
+  padding-left: 12px;
+  font-weight: normal;
+  height: 21px;
+  font-size: 14px;
+}
+
+.el-dialog__header {
+  padding: 12px;
+  border-bottom: 1px solid var(--disabled-border-color);
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: #848484;
+  font-size: 14px;
+}
+
+.el-dialog__body {
+  padding: 12px;
+}
+
+.el-dialog__footer {
+  padding: 12px;
+}
+
+.el-dialog--small {
+  width: 600px;
+}
+
+.el-dialog--large {
+  width: 700px;
+}

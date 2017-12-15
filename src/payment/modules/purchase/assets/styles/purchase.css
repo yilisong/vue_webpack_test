@@ -1,0 +1,60 @@
+@import './index.css';
+
+/*tool css*/
+.text-right {
+  text-align: right;
+}
+/*order container*/
+.order-box {
+  min-height: calc(100vh - 306px);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: $backgroundColor;
+}
+/*btn-group*/
+.btn-group {
+  @extend center;
+  margin-top: 20px;
+}
+.btn {
+  height: 34px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.btn + .btn {
+  margin-left: 14px;
+}
+.btn-cancel {
+  width: 118px;
+  border: 1px solid #cdcdcd;
+}
+.btn-purchase {
+  width: 158px;
+  border: 1px solid #eb4d17;
+}
+.btn-muted {
+  color: #929292;
+  background-color: #fff;
+}
+.btn-warning {
+  color: #fff;
+  border: 1px solid #ee5722;
+  background-color: #ee5722;
+}
+/*purchase box*/
+.purchase-box {
+  min-height: calc(100vh - 287px);
+  padding-top: 20px;
+  padding-bottom: 1px;
+  background-color: #f2f2f2;
+}
+.purchase-info {
+  @extend center;
+  padding: 20px 40px 30px;
+  background-color: #fff;
+  box-sizing: border-box;
+}

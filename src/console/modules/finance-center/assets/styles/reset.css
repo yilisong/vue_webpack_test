@@ -1,0 +1,90 @@
+/*reset common*/
+html {
+  font-size: 12px;
+}
+
+/*reset element*/
+/*el-table*/
+.el-table {
+  border: 0;
+}
+
+.el-table .cell {
+  line-height: 16px;
+}
+
+.el-table td {
+  border-color: #e5e5e5;
+}
+
+.el-table tr:last-child td {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/*add wrapper on Component: ComboTable*/
+.add-wrap {
+  padding: 12px;
+  background-color: #f7f7f7;
+}
+/*el-button*/
+.el-button {
+  padding: 0 15px;
+  line-height: 30px;
+}
+.el-button.el-button--text {
+  padding: 0;
+}
+/*el-dialog*/
+.el-dialog__header {
+  padding: 19px 16px;
+  border-bottom-color: #e6e6e6;
+}
+
+.el-dialog__title {
+  display: inline-block;
+  line-height: 21px;
+  font-size: 14px;
+}
+
+.dialog-common .el-icon-close:before {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.el-dialog__body {
+  padding: 20px 16px;
+  font-size: 12px;
+}
+
+.el-dialog__footer {
+  padding: 12px 16px 24px;
+}
+/*el-form*/
+.el-form-item__label {
+  padding: 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+.el-form-item__content {
+  line-height: 20px;
+}
+.el-form-item {
+  margin-bottom: 20px;
+}
+/*el-input*/
+.split-line {
+
+}
+.el-input__inner {
+  border-radius: 2px;
+}
+/*el-radio*/
+.el-radio-button__inner {
+  font-size: 12px;
+}
+
+/*el-pagination*/
+.el-pagination {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}

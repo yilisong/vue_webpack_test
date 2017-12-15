@@ -1,0 +1,11 @@
+/*perception index style*/
+ * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing:border-box;
+ }
+
+ body {
+  background: url('../img/bg_map.png') no-repeat 0 0; 
+ }

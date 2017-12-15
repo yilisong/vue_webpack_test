@@ -1,0 +1,64 @@
+.el-table__header-wrapper {
+  .el-table__header {
+    th, .cell {
+      background: var(--primary-blue);
+      color: var(--white);
+    }
+  }
+}
+
+.cell .el-checkbox__inner {
+  width: 12px;
+  height: 12px;
+}
+
+/*.el-table .cell, .el-table__footer-wrapper, .el-table__header-wrapper {
+  overflow: visible;
+}
+
+.el-table__body-wrapper {
+  overflow: visible;
+}*/
+
+/*.el-table {
+border-top: 0;
+border-left: 0;
+overflow: visible;
+}*/
+
+.el-table--fit {
+  border: 0;
+}
+
+.el-table--border {
+  td, th {
+    border-right: 0;
+  }
+}
+
+
+.el-table::before {
+  width: 0;
+}
+
+.el-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.el-table::after {
+  height: 0;
+}
+
+.el-table {
+  font-size: 12px;
+  .cell, th>div {
+    padding: 0 12px 0 12px;
+    text-overflow: ellipsis;
+  }
+  td {
+    height: 48px;
+  }
+  th {
+    height: 39px;
+  }
+}

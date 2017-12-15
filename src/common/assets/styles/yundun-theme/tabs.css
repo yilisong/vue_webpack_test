@@ -1,0 +1,9 @@
+.el-tabs__item.is-active {
+  background: var(--primary-blue);
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.el-tabs__active-bar {
+  height: 0px;
+}
